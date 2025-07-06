@@ -13,14 +13,16 @@ Jaipura Window, ethnic wear website, saree online, suit shopping, kurta store, I
 
 ## 🛍️ Features
 
-- 🧵 Product Categories: Sarees, Suits, Kurtas, Dupattas, Accessories
-- 🛒 Add-to-Cart Functionality
-- ✅ Checkout Process
-- 🔍 Product Filtering by Category or Price
-- 📱 Mobile-Responsive UI
-- 🔐 User Login / Signup (Optional)
-- 🖼️ Product Image Zoom / Carousel
-- 📦 Order Summary and Confirmation
+- 🧵 Product Categories: Sarees, Suits, Kurtas, Dupattas, Accessories  
+- 🛒 Add-to-Cart Functionality  
+- ✅ Checkout Process  
+- 💳 Razorpay Payment Gateway integration for secure online payments  
+- 🔍 Product Filtering by Category or Price  
+- 📱 Mobile-Responsive UI  
+- 🔐 User Login / Signup (Optional)  
+- 🖼️ Product Image Zoom / Carousel  
+- 📦 Order Summary and Confirmation  
+
 
 ---
 
