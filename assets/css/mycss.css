@@ -1,0 +1,490 @@
+body {
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: langlock;
+  src: url(../font/langlock-langlock-regular-400.otf);
+}
+
+#about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#about h3 {
+  text-align: left;
+}
+
+#content {
+  margin-bottom: 0 !important;
+}
+
+.homepage {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.service {
+  background: var(--dark-primary-color);
+}
+
+.icon-shipping {
+  background: var(--pink-m-dark);
+  color: white;
+}
+
+.icon-wallet {
+  background: var(--pink-m-dark);
+  color: white;
+}
+
+.icon-gift {
+  background: var(--pink-m-dark);
+  color: white;
+}
+
+.icon-customer-service {
+  background: var(--pink-m-dark);
+  color: white;
+}
+
+.inner2 .btn {
+  background-color: var(--dark-primary-color);
+}
+
+.tab-content .btn {
+  background-color: var(--dark-primary-color);
+}
+
+.vipodha-testimonial-block {
+  color: var(--primary-color);
+}
+
+.category-featured .product-block-inner .date-time {
+  color: var(--primary-color);
+}
+
+.category-featured .product-block-inner .btn {
+  color: var(--primary-color);
+}
+
+.category-featured .product-block-inner .btn:hover {
+  color: white;
+}
+
+footer {
+  border: none;
+  padding-top: 50px;
+  margin-top: 50px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+footer i {
+  color: var(--dark-primary-color);
+}
+
+header .container .sub-menu {
+  position: absolute;
+  left: -25%;
+  right: 0;
+  width: 1200px !important;
+  margin-top: 30px;
+} 
+
+#padding-left{
+  padding-left: 10px  ;
+}
+
+@media screen and (max-width:1024px) {
+  header .container .sub-menu {
+    position: absolute;
+    left:0%;
+    right: 0;
+    width: 100% !important; 
+  } 
+  
+}
+
+ 
+
+@media screen and (max-width: 1024px) {
+  .sub-menu {
+    margin-left: 0;
+  }
+
+  .owl-carousel .owl-nav > .owl-prev,
+  .owl-carousel .owl-nav > .owl-next {
+    bottom: 40%;
+  }
+}
+
+#banner-static {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  height: auto;
+  background: var(--pink-light);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 25px 20px;
+  width: 77%;
+}
+
+.banner-text .banner-title {
+  font-size: 50px;
+
+  font-family: langlock;
+  line-height: 60px;
+}
+
+.banner-text .banner-desc1 {
+  font-size: 16px;
+  font-weight: 500;
+
+  margin-top: 15px;
+  color: rgb(64, 64, 64);
+  margin-top: 10px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: langlock;
+}
+
+.banner-slider {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#product-wear2 img {
+  width: 80%;
+}
+
+@media screen and (max-width: 1366px) {
+  .banner-text .banner-desc1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .banner-text {
+    width: 90%;
+  }
+
+  .banner-slider {
+    top: 58%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-text .banner-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .banner-text .banner-desc1 {
+    font-size: 16px;
+  }
+  #service-extra {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-text {
+    width: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+    top: 23%;
+    border-radius: 0;
+  }
+
+  .banner-slider {
+    width: 100%;
+    padding: 1;
+    top: 43%;
+  }
+
+  .banner-slider .product-tab-block {
+    background-color: #fdfeee;
+    border-radius: 0 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-text {
+    width: 100%;
+    top: 30%;
+    padding: 30px 0;
+  }
+  .banner-slider {
+    width: 100%;
+    padding: 1;
+    top: 74%;
+  }
+
+  .banner-text .banner-desc1 {
+    width: 100%;
+  }
+}
+
+#products-top-gap {
+  padding-top: 80px;
+}
+
+.page-title {
+  margin-bottom: -15px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 920px) {
+  .banner-slider {
+    width: 100%;
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-text .banner-title {
+    font-size: 28px;
+  }
+
+  #feature-service {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #feature-service {
+    margin-top: 50px;
+  }
+}
+
+.vipodha_megamenu-style-dev
+  .navbar-default
+  .navbar-header
+  .navbar-toggle
+  .icon-bar {
+  background: black !important;
+}
+
+#latest .category-box {
+  padding: 20px 40px;
+}
+
+.about-list ul li {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #929292;
+}
+
+.about-list ul li {
+  font-family: langlock;
+}
+
+h3 {
+  font-family: langlock;
+}
+
+.about-list .btn {
+  color: black;
+  background-color: #f8a26f;
+}
+
+#top {
+  background-color: var(--pink-m-dark);
+}
+
+.fa-star {
+  color: var(--pink-m-dark) !important;
+}
+
+#about .btn {
+  background-color: var(--pink-m-dark);
+  color: white;
+}
+
+.blog-date {
+  color: white;
+}
+
+.view-blog .btn {
+  color: white !important;
+}
+
+#about-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#about-image .image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: langlock !important;
+}
+
+.promo-desc {
+  font-family: langlock !important;
+}
+
+#about #content h3 {
+  font-family: langlock !important;
+}
+
+#about .description {
+  font-family: langlock !important;
+}
+
+.block_box h3,
+p {
+  font-family: langlock !important;
+}
+.blog-details h4 {
+  font-family: langlock !important;
+}
+.blog-details .blog-desc {
+  font-family: langlock;
+}
+
+.banner-title .banner-desc1 .banner-desc2 {
+  font-family: langlock !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #logo img {
+    margin: auto;
+    width: 130%;
+    max-width: 120px !important;
+    border-radius: 0;
+  }
+}
+
+
+#my-menu{
+  height: 500px;  
+  overflow-x: hidden;
+  display:none;
+}
+
+#my-menu .col-lg-6{
+  margin-top: 30px;
+}
+
+#my-menu .col-lg-6 a{
+  text-transform: capitalize;
+}
+ 
+
+#product-specification table { 
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#product-specification table td{
+  font-size: 15px;
+} 
+
+.food-title{
+  font-size: 34px !important;
+}
+  
+/* for nav */
+#my-menu-cat{
+  height: auto;
+  width: 100%;
+  display: flex; 
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#my-menu-cat li{ 
+  flex-basis: 25%;
+}
+
+
+@media screen and (max-width:768px) {
+  #my-menu-cat li{ 
+    flex-basis: 100%;
+  } 
+}
+
+
+
+#dahboard-tabs nav{
+  display: flex;
+  flex-direction: column !important;
+}
+
+#dahboard-tabs {
+  height:auto;
+}
+
+
+/* This css is used for product grid and list view wear.php */
+	/* Grid View */
+  .product-grid {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(25% - 20px);
+    margin: 10px;
+  }
+  
+  /* List View */
+  .product-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  .product-list .image {
+    width:600px !important;
+          height: auto;
+    margin-right: 20px;
+  }
+      
+  .product-list .product-description {
+    width: 50%;
+  }
+  
+  .description {
+    display: none;  
+  }
+ 
+  .my-baby-pink{
+    background: #fcd9ec !important;
+  }

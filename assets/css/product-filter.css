@@ -1,0 +1,24 @@
+.product-grid {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .product-grid {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .product-grid {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .product-grid {
+        width: 100%;
+    }
+}

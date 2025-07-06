@@ -1,0 +1,75 @@
+.banner-title .banner-desc1 .banner-desc2 {
+  font-family: langlock !important;
+}
+
+.breadcrumb-container {
+  background-color: var(--pink-light);
+  padding: 100px 0;
+  border-radius: 20px;
+}
+
+.breadcrumb-container .page-title {
+  color: black;
+}
+
+.breadcrumb-container .fa-home {
+  color: black;
+}
+
+.breadcrumb-item a {
+  color: black !important;
+}
+
+.breadcrumb-item a::before {
+  color: black !important;
+}
+
+#about-page .breadcrumb-main {
+  background-color: none;
+}
+
+.breadcrumb-main {
+  padding: 0;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #logo img {
+    margin: auto;
+    width: 130%;
+    max-width: 120px !important;
+    border-radius: 0;
+  }
+
+  #about-page .breadcrumb-main {
+    background-color: var(--pink-light);
+  }
+}
+
+#vision .container {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 0 50px;
+}
+
+#vision .blog_title a {
+  color: var(--pink-base);
+}
+
+#padding-style {
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 768px) {
+  #padding-style {
+    padding: 0;
+  }
+}
+
+.Contact_Us .panel-body {
+  margin-top: 30px;
+}
+
+.list-unstyled a:hover {
+  color: var(--pink-base);
+}
